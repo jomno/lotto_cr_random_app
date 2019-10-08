@@ -1,0 +1,7 @@
+<a href="/lotteries/new">로또 번호 추출하기</a>
+<hr>
+
+<% @lotteries.each do |lotto| %>
+    <%= lotto.num1 %>, <%= lotto.num2 %>, <%= lotto.num3 %>, <%= lotto.num4 %>, <%= lotto.num5 %>, <%= lotto.num6 %>
+    <hr>
+<% end %>
